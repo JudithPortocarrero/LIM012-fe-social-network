@@ -57,7 +57,7 @@ const createAccount = (newEmail, newPassword, newUser) => {
           displayName: newUser,
         });
         const configuracion = {
-          url: 'https://judithportocarrero.github.io/LIM012-fe-social-network/src/#/home',
+          url: 'https://judithportocarrero.github.io/LIM012-fe-social-network/src',
         };
         result.user.sendEmailVerification(configuracion)
           .catch((error) => {
