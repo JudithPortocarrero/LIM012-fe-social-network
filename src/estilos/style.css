@@ -658,8 +658,8 @@ header label:hover {
     display: flex;
     border-bottom-right-radius: 0.7em;
     border-bottom-left-radius: 0.7em;
-    margin-left: 2.5%;
-
+    background: #D1D1D1;
+    color: #766E72;
 }
 
 .contador_likes,
@@ -748,7 +748,7 @@ header label:hover {
 
 .editUser {
     background: #ECEBEB;
-    border: 0px;
+    border: 0px solid;
     font-size: 15px;
 }
 

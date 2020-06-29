@@ -57,7 +57,7 @@ const createAccount = (newEmail, newPassword, newUser) => {
           displayName: newUser,
         });
         const configuracion = {
-          url: 'http://localhost:5000/#/home',
+          url: 'https://judithportocarrero.github.io/LIM012-fe-social-network/src/#/home',
         };
         result.user.sendEmailVerification(configuracion)
           .catch((error) => {
@@ -158,6 +158,31 @@ const inicioSesion = () => {
     signInAccount(email, password);
   }
 };
+
+const btnInfo = () => {
+  const modal = document.getElementById('modal');
+  const span = document.getElementsByClassName('closeInfo')[0];
+  const body = document.getElementsByTagName('body')[0];
+  modal.style.display = 'block';
+  body.style.position = 'static';
+  body.style.height = '100%';
+  body.style.overflow = 'hidden';
+  span.onclick = () => {
+    modal.style.display = 'none';
+    body.style.position = 'inherit';
+    body.style.height = 'auto';
+    body.style.overflow = 'visible';
+    changeView('#/login');
+  };
+  window.onclick = (event) => {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+      body.style.position = 'inherit';
+      body.style.height = 'auto';
+      body.style.overflow = 'visible';
+    }
+  };
+};
 export {
   registrarUsuario,
   inicioSesion,
@@ -165,4 +190,5 @@ export {
   signInAccount,
   signInGoogleAccount,
   signInFacebookAccount,
+  btnInfo,
 };

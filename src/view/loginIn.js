@@ -1,6 +1,10 @@
-/* eslint-disable import/no-cycle */
-import { btnInfo } from '../view-controller/view-info.js';
-import { signInGoogleAccount, signInFacebookAccount, inicioSesion } from '../view-controller/view-signIn.js';
+// eslint-disable-next-line import/no-cycle
+import {
+  signInGoogleAccount,
+  signInFacebookAccount,
+  inicioSesion,
+  btnInfo,
+} from '../view-controller/view-signIn.js';
 
 export default () => {
   const viewLogin = `
