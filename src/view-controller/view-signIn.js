@@ -58,6 +58,7 @@ const createAccount = (newEmail, newPassword, newUser) => {
         });
         const configuracion = {
           url: 'https://judithportocarrero.github.io/LIM012-fe-social-network/src',
+          // url: 'http://localhost:5000/#/home',
         };
         result.user.sendEmailVerification(configuracion)
           .catch((error) => {
