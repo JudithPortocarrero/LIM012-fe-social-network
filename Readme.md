@@ -1,17 +1,17 @@
 # "Vida Sana"
 
-Vida Sana es una red social dirigida para personas personal del todo el mundo, que deseen compartir tips, recetas y rutinas para llevar una vida saludable, al mismo tiempo crear una comunidad con los mismos objetivos de tener o empezar con mejores hábitos alimenticios y deportivos. 
+Vida Sana es una red social dirigida para personas del todo el mundo, que deseen compartir tips, recetas y rutinas para llevar una vida saludable, al mismo tiempo crear una comunidad con los mismos objetivos de tener o empezar con mejores hábitos alimenticios y deportivos. 
 
 ## Prototipos de alta 
 
 ### Desktop
 
-![Vista LogIn Desktop](img/3.jpg)
-![Vista Home](img/2.jpg)
+![Vista LogIn Desktop](img/3.png)
+![Vista Home](img/2.png)
 
 ### Mobile
 
-![Vista LogIn](img/1.jpg)
+![Vista LogIn](img/1.png)
 
 Para el desarrollo de este proyecto nos hemos organizado con la Creación de 6 historias de usuario, usamos como base de Datos a Firebase junto con javaScript, HTML y css3 para asi poder ir desarrollando cada historia de usuario.
 
